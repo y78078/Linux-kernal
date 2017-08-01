@@ -12,3 +12,5 @@
             4. 输出文件：
                 1. arch/arm/boot/zImage             ---->       zImage
                 2. arch/arm/boot/dts/imx6dl-sabresd.dtb     ---->       zImage-imx6dl-sabresd.dtb
+### rootfs打包
+tar jcvf rootfs.tar.bz2 *
